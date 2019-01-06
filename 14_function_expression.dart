@@ -17,6 +17,6 @@ void findPerimeter(int length, int breadth) => print("The perimeter is ${2 * (le
 int getArea(int length, int breadth) => length * breadth;
 
 
-// "=>" is known as FAT ARROW or LAMBDA function
+// "=>" is known as FAT ARROW
 // "=> expression" is a SHORT HAND SYNTAX for { return expression; }
 // Example "=> length * breadth" is SHORT HAND SYNTAX for { return length * breadth; }
