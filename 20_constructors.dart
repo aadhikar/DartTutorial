@@ -5,6 +5,8 @@
 // 3. Named Constructor
 // 4. Constant Constructor (Pending)
 
+// Note: 
+
 void main() {
 
 	var student1 = Student(23, "Peter"); 		// One Object, student1 is reference variable
@@ -35,8 +37,10 @@ class Student {
 	int id = -1;
 	String name;
 
+	// You can initialize your instance or filed variables within Constructors
 	Student(this.id, this.name);    // Parameterised Constructor
 
+	// Can have as many Named Constructors you want to within te same class.
 	Student.myCustomConstructor() {                 // Named Constructor
 		print("This is my custom constructor");
 	}
@@ -51,3 +55,4 @@ class Student {
 		print("${this.name} is now sleeping");
 	}
 }
+// Note: Cannot have both Default and Parameterised Constructors at the same time within same class.

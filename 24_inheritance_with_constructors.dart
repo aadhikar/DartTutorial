@@ -44,3 +44,9 @@ class Dog extends Animal {
 		print("Dog class Named Constructor");
 	}
 }
+
+// NOTE:
+// 		1. By default, a constructor in a subclass calls the supersclass's no-argument constructor
+// 		2. Parent class constructor is always called before child class constructor
+// 		3. If default constructor is missing in Parent Class, then you must manually call call 
+// 			one of the constructor in the super class

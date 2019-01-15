@@ -43,3 +43,14 @@ class Circle {
 		print(maxRadius);
 	}
 }
+
+// 1. Static Variables are also known as Class Variables
+// 2. Static Methods are also known as Class Methods
+// 3. Static Variables are Lazily intialized
+// 		i.e. they are not initialized untill they are used in the program
+// 		So they comsume memory only when they are used
+// 4. Static Methods has nothing to do with class objects or instances
+// 		You cannot use 'this' keyword within a Static Method
+// 5. From a Static Method
+// 		You can ONLY access Static Methods and Static Variables
+// 		But you cannot acces Normal Instance Variables and methods of class

@@ -25,7 +25,7 @@ void printCities(String name1, String name2, String name3) {
 
 // Optional Positional Parameters
 //NoteA: 1. No Required Parameters in the middle of Optional Positional Parameters
-//	 2. If you are using Optional Positional Parameters, Parameters end with Optional Positional Parameters
+//		2. If you are using Optional Positional Parameters, Parameters end with Optional Positional Parameters
 void printCountries(String name1, [String name2, String name3]) {
 
 	print("Name 1 is $name1");

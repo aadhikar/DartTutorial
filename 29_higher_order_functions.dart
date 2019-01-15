@@ -2,6 +2,10 @@
 
 // Objectives
 // 1. Higher-Order Function:
+// 		-- Can accept Function as a parameter
+// 		-- Can return a Function
+// 		-- Or can do both
+
 // How to pass function as parameter?
 // How to return a function from another function?
 
@@ -19,7 +23,7 @@ void main() {
 }
 
 
-
+	
 // Example one: Accepts function as parameter
 void someOtherFunction(String message, Function myFunction) {       // Higher-Order Function
 

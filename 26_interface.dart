@@ -44,3 +44,10 @@ class Television implements Remote, AnotherClass {
 		print("Some code");
 	}
 }
+
+// 1. Dart does not have any special syntax to declare INTERFACE
+// 2. An INTERFACE in Dart is a normal Class
+// 3. An INTERFACE is used when you need concrete implementation of all its functionswithin it's sub class
+// 		-- It is mandatory to override all methods in the implementating class
+// 4. You can implement multiple classes but
+// 		-- You cannot extend multiple class during inheritance.
